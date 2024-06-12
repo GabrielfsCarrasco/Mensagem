@@ -1,11 +1,11 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Alterado de height para min-height */
     background-color: #ff4d4d;
     overflow: hidden;
 }
@@ -20,17 +20,18 @@ body{
 }
 
 .envelope img {
-    width: 200px;
+    width: 60vw; /* Alterado de 200px para 60% da largura da viewport */
+    max-width: 200px; /* Largura máxima de 200px */
     cursor: pointer;
 }
 
 .img{
-  display: block;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  width: 150px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%; /* Alterado de 150px para 40% da largura da viewport */
 }
 
 button {
@@ -43,7 +44,7 @@ button {
     transition: all 0.3s ease;
 }
 
-button#yes, button#yes-gift, button#accept-gift{
+button#yes, button#yes-gift, button#accept-gift {
     background-color: #4CAF50;
     color: white;
     border: 1px solid white;
@@ -67,7 +68,7 @@ button#no:hover, button#no-gift:hover, button#retry:hover, button#decline-gift:h
     background-color: #ffe6e6;
     padding: 20px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 90vw; /* Alterado de 600px para 90% da largura da viewport */
     max-height: 80vh;
     margin: 20px;
     color: black;
@@ -84,8 +85,8 @@ button#no:hover, button#no-gift:hover, button#retry:hover, button#decline-gift:h
     text-align: left;
 }
 
-.btn{
-  background-color: dodgerblue;
-  border-radius: 5px;
-  color: white;
+.btn {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
 }
