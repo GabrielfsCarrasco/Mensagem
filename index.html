@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <title>Envelope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="envelope" class="envelope">
+        <img src="envelope.png" alt="Envelope">
+        <p>Clique no envelope para ler a carta</p>
+    </div>
+    <div id="question" class="question hidden">
+        <p>Você quer ler a carta?</p>
+        <button id="yes">Sim</button>
+        <button id="no">Não</button>
+    </div>
+    <div id="letter" class="letter hidden">
+      <h1>Feliz Dia dos Namorados</h1>
+        <p><span style="display: block; margin-bottom: 10px;">
+          Amor, as vezes me pego pensando e feliz dando sorriso do nada, só de pensar o quanto tenho sorte de ter você, Por ter te conhecido e por poder te amae e ser amado por você fico pensando o quando você é incrível e importante para mim
+        </span>
+        <span style="display: block; margin-bottom: 10px;">
+          Esse é nosso primeiro dia dos namorados finalmente namorando, agradeço demais a Deus por tudo que Ele nos proporcionou. Quero te dizer que sou completamente apaixonado por você desde que te vi ate hoje, você é minha primeira e única namorada e Futura esposa. Te amo muito muito muito
+        </span>
+        <span style="display: block; margin-bottom: 10px;">
+          que esse seja o primeiro de muitos e muitos outros, que venhamos mviver uma vida juntos na presença de Deus, conhecendo e vivendo a vontade dEle até que ele venha
+        </span>
+        <span style="display: block; margin-bottom: 10px;">
+          Que seu dia seja muito abençoado e cheio da presença e glória de Deus 
+        </span>
+        <span style="display: block; margin-bottom: 10px; font-family: 'Pacifico', cursive; font-size: 30px; text-align: center">Feliz dia dos namorados minha princesa ❤️</span>
+        </p>
+        <button id="decline-gift" class="hidden">Não</button>
+        </p>
+        <button class="btn" id="close">Fechar</button>
+        <button class="btn" id="gift">Presente misterioso?</button>
+        </div>
+    </div>
+    <div id="rejection" class="rejection hidden">
+        <p>Não entendi como chegou aqui, clique no sim logo!</p>
+        <img class="img" src="nao.png" alt="" width="100">
+        <button id="retry">Fechar</button>
+    </div>
+   <div id="gift-question" class="gift-question hidden">
+      <p>Tem certeza que quer saber qual o presente?</p>
+      <button id="yes-gift">Sim</button>
+      <button id="no-gift">Não</button>
+    </div>
+    <div id="gift-response" class="gift-response hidden">
+      <p>Aceita receber um carro de som no trabalho hoje?</p>
+      <img class="img" src="carro.png" alt="carro.png" width="150">
+      <button id="accept-gift">Sim</button>
+      <button id="decline-gift-final">Não</button>
+    </div>
+    <audio id="music" src="Christina Perri - A Thousand Years [Official Music Video].mp3">Christina Perri - A Thousand Years [Official Music Video].mp3</audio>
+    <script src="script.js"></script>
+</body>
+</html>

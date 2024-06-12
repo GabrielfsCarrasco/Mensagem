@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff4d4d;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.envelope, .question, .letter, .rejection, .gift-question, .gift-response {
+    text-align: center;
+    color: white;
+}
+
+.envelope img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.img{
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 150px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button#yes, button#yes-gift, button#accept-gift{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid white;
+}
+
+button#yes:hover, button#yes-gift:hover, button#accept-gift:hover {
+    background-color: #45a049;
+}
+
+button#no, button#no-gift, button#retry, button#decline-gift, button#decline-gift-final {
+    background-color: #f44336;
+    color: white;
+    border: 1px solid white;
+}
+
+button#no:hover, button#no-gift:hover, button#retry:hover, button#decline-gift:hover, button#decline-gift-final:hover {
+    background-color: #d32f2f;
+}
+
+.letter {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    max-height: 80vh;
+    margin: 20px;
+    color: black;
+    overflow-y: auto;
+}
+
+.letter h1 {
+    margin-top: 0;
+}
+
+.letter p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.btn{
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color: white;
+}
